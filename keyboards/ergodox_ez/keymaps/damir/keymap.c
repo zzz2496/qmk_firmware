@@ -113,13 +113,13 @@ http://www.keyboard-layout-editor.com/#/gists/e755fe951b6529b96e9958511b33dc71
                                                                                 RGB_VAD,            RGB_VAI,            RGB_HUD,
 
     KC_F7,                      KC_F8,                  KC_F9,                  KC_F10,             KC_F11,             KC_F12,               KC_BSPACE,
-    KC_NO,                      KC_UP,                  KC_7,                   KC_8,               KC_9,               KC_KP_ASTERISK,       KC_DELETE,
+    KC_TRANSPARENT,             KC_UP,                  KC_7,                   KC_8,               KC_9,               KC_KP_ASTERISK,       KC_DELETE,
                                 KC_DOWN,                KC_4,                   KC_5,               KC_6,               KC_KP_MINUS,          KC_KP_ENTER,
-    KC_NO,                      KC_AMPR,                KC_1,                   KC_2,               KC_3,               KC_KP_SLASH,          SFT_T(KC_KP_PLUS),
+    KC_TRANSPARENT,             KC_AMPR,                KC_1,                   KC_2,               KC_3,               KC_KP_SLASH,          SFT_T(KC_KP_PLUS),
     KC_KP_0,                    KC_KP_0,                KC_KP_DOT,              KC_EQUAL,           KC_KP_ENTER,
     RGB_TOG,                    RGB_M_T,
     RGB_M_P,
-    RGB_SAD,                    KC_NO,                  RGB_SAI
+    RGB_SAD,                    KC_TRANSPARENT,         RGB_SAI
   ),
 
   [ARROWS] = LAYOUT_ergodox(
@@ -135,7 +135,7 @@ http://www.keyboard-layout-editor.com/#/gists/e755fe951b6529b96e9958511b33dc71
     KC_NO,                      KC_NO,                  KC_PSCREEN,             KC_SLCK,            KC_PAUSE,           KC_BSPACE,            KC_DELETE,
     KC_NO,                      KC_HOME,                KC_END,                 KC_UP,              KC_PGUP,            KC_PGDOWN,            KC_AUDIO_VOL_UP,
                                 KC_NO,                  KC_LEFT,                KC_DOWN,            KC_RIGHT,           KC_NO,                KC_AUDIO_VOL_DOWN,
-    KC_MS_WH_LEFT,              KC_MS_WH_DOWN,          KC_MS_WH_UP,            KC_MS_WH_RIGHT,     KC_NO,              KC_NO,                SFT_T(KC_MEDIA_PLAY_PAUSE),
+    KC_NO,                      KC_MS_WH_LEFT,          KC_MS_WH_DOWN,          KC_MS_WH_UP,        KC_MS_WH_RIGHT,     KC_NO,                SFT_T(KC_MEDIA_PLAY_PAUSE),
     KC_AUDIO_VOL_DOWN,          KC_AUDIO_VOL_UP,        KC_MEDIA_PLAY_PAUSE,    KC_MEDIA_PREV_TRACK,KC_MEDIA_NEXT_TRACK,
     KC_MEDIA_PREV_TRACK,        KC_MEDIA_NEXT_TRACK,
     KC_MEDIA_STOP,
