@@ -1,0 +1,2 @@
+#define QMK_VERSION "0.6.58-13-g2ca801-dirty"
+#define QMK_BUILDDATE "2018-07-21-07:18:43"

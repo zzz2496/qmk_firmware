@@ -40,10 +40,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #undef MOUSEKEY_TIME_TO_MAX
 #undef MOUSEKEY_MAX_SPEED
 
-#define MOUSEKEY_INTERVAL       25
+#define MOUSEKEY_INTERVAL       20
 #define MOUSEKEY_DELAY          0
-#define MOUSEKEY_TIME_TO_MAX    30
-#define MOUSEKEY_MAX_SPEED      6
+#define MOUSEKEY_TIME_TO_MAX    40
+#define MOUSEKEY_MAX_SPEED      8
 
 
 #undef MOUSEKEY_WHEEL_MAX_SPEED
@@ -65,8 +65,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* define if matrix has ghost */
 //#define MATRIX_HAS_GHOST
 
-#define TAPPING_TERM    170
-#define IGNORE_MOD_TAP_INTERRUPT // this makes it possible to do rolling combos (zx) with keys that convert to other keys on hold (z becomes ctrl when you hold it, and when this option isn't enabled, z rapidly followed by x actually sends Ctrl-x. That's bad.)
+#define TAPPING_TERM    200
+// #define IGNORE_MOD_TAP_INTERRUPT // this makes it possible to do rolling combos (zx) with keys that convert to other keys on hold (z becomes ctrl when you hold it, and when this option isn't enabled, z rapidly followed by x actually sends Ctrl-x. That's bad.)
 
 /* Mechanical locking support. Use KC_LCAP, KC_LNUM or KC_LSCR instead in keymap */
 #define LOCKING_SUPPORT_ENABLE
@@ -94,9 +94,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGB_DI_PIN D7
 #define RGBLIGHT_ANIMATIONS
 #define RGBLED_NUM 15     // Number of LEDs
-#define RGBLIGHT_HUE_STEP 12
-#define RGBLIGHT_SAT_STEP 255
-#define RGBLIGHT_VAL_STEP 12
+#define RGBLIGHT_HUE_STEP 8
+#define RGBLIGHT_SAT_STEP 22
+#define RGBLIGHT_VAL_STEP 8
 
 /* fix space cadet rollover issue */
 #define DISABLE_SPACE_CADET_ROLLOVER
